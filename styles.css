@@ -2,3 +2,31 @@ body {
     background-color: #70459b;
 }
 
+.background-image-container {
+    height: 1000px;
+    width: 100%;
+    background-image: url(noise_1.png);
+    background-size: cover;
+}
+
+.container{
+    overflow: auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3.8em;
+    -webkit-text-stroke: 3px #b1b7dd;
+    color: white;
+    padding-top: 5em;
+    padding-left: 5%;
+    padding-right: 22%;
+}
+
+.Paragraph {
+    color: white;
+    font-size: 2.1em;
+    padding-left: 5%;
+    padding-right: 27%;
+}
+
