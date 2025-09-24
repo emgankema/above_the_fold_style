@@ -1,32 +1,73 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: #70459b;
+    padding: 1rem 2rem;
+    margin: 0;
+    width: 100%;
 }
 
 .background-image-container {
     height: 1000px;
     width: 100%;
-    background-image: url(noise_1.png);
-    background-size: cover;
+    background-color: #010025;
+    background-image: url(bg-noise.png);
+    background-repeat: repeat;
+    display: flex;
 }
 
-.container{
-    overflow: auto;
-    padding: 10px;
+.header {
+    height: auto;
+    width: 1671px; 
+}
+
+.leftColumn {
+    padding-left: 5%;
+    width: 50%;
+}
+
+.atom {
+    padding-right: 8%; 
+    padding-top: 5em; 
+    width: 253px; 
+    height: auto; 
+    margin-left: 5px;
+}
+
+.rightColumn {
+    width: 50%;
+}
+
+.main-image {
+    width: 100%;
 }
 
 h1 {
     font-size: 3.8em;
     -webkit-text-stroke: 3px #b1b7dd;
     color: white;
-    padding-top: 5em;
-    padding-left: 5%;
-    padding-right: 22%;
 }
 
 .Paragraph {
     color: white;
     font-size: 2.1em;
-    padding-left: 5%;
-    padding-right: 27%;
 }
 
+.arrow-container {
+  display: flex; 
+  justify-content: center;
+  align-items: center; /* Centers items vertically */
+  
+  /* Set a height for the container for vertical alignment to take effect */
+  height: 200px;
+  
+  /* Optional: Add spacing between the arrows */
+  gap: 20px;
+}
+
+.arrow {
+  /* Optional: Set a fixed width for the arrows */
+  width: 50px;
+  height: auto;
+}
